@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="signup" >
+      <form action="" id="form">
+        <h1>Signup</h1>
+        <label for="email">
+          Email <input type="email" name="email" id="email" />
+        </label>
+        <label for="password">
+          Password <input type="password" name="password" id="password" />
+        </label>
+        <label for="retypepassword">
+          Retype Password
+          <input type="password" name="retypepassword" id="retypepassword" />
+        </label>
+        <label for="name">
+          Full Name<input type="text" minlength="2" name="name" id="name" />
+        </label>
+        <label for="merchant">
+          Are you a merchant?
+          <input type="checkbox" name="merchant" id="merchant" unchecked/>
+        </label>
+        <button id="submitBtn" type="submit">Go</button>
+      </form>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

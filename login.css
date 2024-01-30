@@ -1,0 +1,58 @@
+.signup{
+    margin:0px auto;
+    width: 400px;
+    background-color: #310b74;
+    padding: 10px;
+    border-radius: 15px;
+}
+h1{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding: 2px 2px 2px 5px;
+    height: 2rem;
+    margin: 2px;
+    color: white;
+    background-color: #5b3c8f;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.error{
+ background-color: rgb(193, 13, 13);
+}
+
+label input{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+label[for="merchant"] {
+    display: flex;
+    justify-content: flex-start;
+    gap: 13px;
+}
+
+button{
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #8e58f1;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    align-self: flex-end;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
